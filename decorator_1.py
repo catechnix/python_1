@@ -36,3 +36,14 @@ next(iterator, default)
 z=zip('xyz', '246')
 next(z)->('x','2')
 next(z)->('y','4')
+
+The yield expression: 
+def func_name(args):
+  yield result
+  
+Yield is used to pause the function and return a value
+It is possible to resume the function
+yield can be executed multiple times 
+a function can have multiple yields
+it is possible to yield multiple values
+
