@@ -29,5 +29,24 @@ __getitem__ or __iter__ ->return an iterator
 
 Iterators are objects that keep track of the position during iteration.
 
+"""
+iterable: object that can be iterated
+iterator: object that keeps track of the iteration
+create a iterable: iterable = 'An Iternable Object'
+create two iterators: 
+iterator1 = iter(iterable) 
+iterator2 = iter(iterable)   
+next(iterator, default)
+z=zip('xyz', '246')
+next(z)->('x','2')
+next(z)->('y','4')
 
-
+The yield expression: 
+def func_name(args):
+  yield result
+  
+Yield is used to pause the function and return a value
+It is possible to resume the function
+yield can be executed multiple times 
+a function can have multiple yields
+it is possible to yield multiple values
