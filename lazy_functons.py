@@ -29,7 +29,7 @@ __getitem__ or __iter__ ->return an iterator
 
 Iterators are objects that keep track of the position during iteration.
 
-"""
+
 iterable: object that can be iterated
 iterator: object that keeps track of the iteration
 create a iterable: iterable = 'An Iternable Object'
@@ -50,3 +50,10 @@ It is possible to resume the function
 yield can be executed multiple times 
 a function can have multiple yields
 it is possible to yield multiple values
+
+
+
+
+
+
+"""
