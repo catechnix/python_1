@@ -24,3 +24,7 @@ def smart_sort(seq):
   return sorted(seq)
 
 """range(10,0,-1): starts from 10, decrease by 1 and ends with 1"""
+
+"""
+iterable: object that can be iterated
+iterator: object that keeps track of the iteration
