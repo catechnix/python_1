@@ -28,3 +28,7 @@ def smart_sort(seq):
 """
 iterable: object that can be iterated
 iterator: object that keeps track of the iteration
+create a iterable: iterable = 'An Iternable Object'
+create two iterators: 
+iterator1 = iter(iterable) = 'A'
+iterator2 = iter(iterable) = 'n'
