@@ -35,6 +35,18 @@ class ClassName:
 class are objects too like everything else in python, ClassName is a variable that refers to the class object
 class are callable -- inst1=ClassName(), inst2=ClassName()
 
+Attributes:
+* attributes are variables defined within a class:
+class ClassName:
+  clsattr=value
+  def method(self):
+    self.insattr=value
+There are two types of attributes: class.attribute and instance.attribute
+
+Two ways to define and access the attribute:
+* define inside the class 
+* ClassName.attrubute = value
+* Inst.attr = value, if not inst attr, python will look class attr
 
 
 """
