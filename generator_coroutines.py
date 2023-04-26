@@ -10,4 +10,16 @@ list(g)
 [0,2,4,6,8]
 
 Functions have 1 entry point and 1 exit point
-Generators have 
+Generators have 1 entry point and multiple exit points
+Coroutines have multiple entry points and multiple exit points
+
+coroutines are implemented with generators. In addition to support iteration, generators also 3 methods:
+*g.send(value)
+*g.throw(exception)
+*g.close()
+
+
+
+
+
+"""
