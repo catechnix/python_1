@@ -48,5 +48,31 @@ Two ways to define and access the attribute:
 * ClassName.attrubute = value
 * Inst.attr = value, if not inst attr, python will look class attr
 
+__init__ method: is a special method, it is used to create an instance, is called whenever a new instance is created.
+
+>>>class InitTest:
+      def __init__(self):
+          print('__init__ called')
+>>>inst1 = InitTest()
+__init__ called!
+
+It is possible to pass arguments to __init__ during class instantiation:
+>>>class Dog:
+      def __init__(self, name):
+          self.name= name #define instance att
+      def bark(self):
+          print(self.name, 'says bark')
+>>> rex = Dog('Rex')
+>>> rex.name
+>>> 'Rex'
+
+__init__ is used to initialize instance
+when an instance is created with Class(args), the args are passed to the __init__ method
+Instance attributes are usually defined in the __init__method
+__init__ is not a constructor (the instance has already been created and passed to __init__ as first argument(self)
+
+
+
+
 
 """
