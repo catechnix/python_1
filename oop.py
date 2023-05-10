@@ -94,6 +94,28 @@ when an instance is created with Class(args), the args are passed to the __init_
 Instance attributes are usually defined in the __init__method
 __init__ is not a constructor (the instance has already been created and passed to __init__ as first argument(self)
 
+method:
+Class method is defined in the class, method must accept self as first argument. Method can be called with instance.method(), can not be called with Class.method()
+
+self:
+*self should be declared as first parameter of methods
+*self is never passed while calling the method
+*self is a variable that references an instance
+
+class SelfTest:
+  def test(self):
+    print('Self is', self)
+    
+inst1 = SelfTest()
+inst2 = SelfTest()
+>>>inst1.test()
+>>>self is <__main__.SelfTest object at 0xb67be02c>
+>>>inst1
+>>><__main__.SelfTest object at 0xb67be02c>
+
+In a method, self is the instance
+
+There is nothing special about self, the only bit of magic is that instance.method() is equivalent to Class.method(instance)
 
 
 
