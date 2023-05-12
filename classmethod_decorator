@@ -1,0 +1,8 @@
+"""
+@classmethod is a built-in decorator
+methods decorated with @classmethod will receive the class instead of the instance as first argument
+Class methods are commonly used to provide alternate class constructors
+
+
+
+"""
