@@ -23,6 +23,23 @@ What is REST:
 * popular due to performance, scale, simplicity and reliability
 Get, Post, Put, Delete -- get info from the server, post new info, put: update info in the server
 
+A look under the hood of REST:
+* THE URL: What are you requesting?
+http://maps.googleapis.com/maps/api/geocode/json?address=sanjose
+
+http://maps.googleapis.com ->server or host, resolve to the IP or the host to connect to 
+/maps/api/geocode/json -> resource, the location of the data or object of interest on the server
+?address=sanjose ->parameters, details to scope, filter, or clarify a request, often optional
+
+HTTP verb: POST: create, GET: Read, PUT: update, PATCH: update, DELETE: delete
+
+REST APIs are built on the HTTP protocol
+Requests and Responses
+How are URLs constructed
+Methods, Status codes and headers used with REST APIs
+Authentication options for HTTP
+
+
 
 
 
